@@ -1,0 +1,232 @@
+.header {
+    height: 100px;
+    background: orangered;
+    width: 100%;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+.call {
+    color: white;   
+    font-size: 24px;
+    padding: 7px 0;
+}
+.main .header .text {
+    padding: 20px 0;
+}
+.main .header .text .call select{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.main .header .text .call select option{
+    background: darkorange;
+    color: black;
+}
+.main .header .text .doc h1{
+    margin: 0;
+    margin-left: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    left: 14px;
+
+}
+.main .header .text .doc span{
+    text-transform: uppercase;
+    color: white;
+}
+.main .header .text .lost a{
+    text-decoration: none;
+    color:black;
+    border: 1px solid orange;
+    background: #fbc222;;
+    padding: 10px;
+    border-radius: 5%;
+    margin-left: 22px;
+}
+.main .header .text .lost{
+    margin-top:15px;
+}
+.main .top img {
+    position: absolute;
+    bottom: 0;
+}
+.top {
+    height: 500px;
+    background: orangered;
+    position: relative;
+}
+
+.main .top .content{
+    position: absolute;
+    top: 20%;
+    
+}
+.main .top .content .text {
+    color: white;
+
+    }
+.main .top .content .text ul{
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 0px;
+    
+}    
+.main .top .content .text i{
+    color: #fbc222;
+}
+.main .top .content .col3{
+    height: 310px;
+    color: black;
+    background: white;
+}
+.main .top .content .search{
+    margin: 0 20px;
+}
+.space {
+    height: 100px;
+}
+.main .top .content .search h3 {
+    text-align: center;
+}
+.main .top .content .search i{
+    color: #fbc222;
+}
+.main .top .content .search select{
+margin-left: 20px;
+    padding: 5px 20px 5px 25px;
+    background: transparent;
+    color: silver;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+.main .top .content .search input{
+    border: none;
+    padding: 5px 20px 5px 5px;
+    border-bottom: 1px solid silver;
+    margin-left: 20px;
+}
+.main .top .content .search a{
+    text-decoration: none;
+    border: 1px solid #fbc222;
+    background: #fbc222;
+    padding: 10px 90px 15px 90px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: black;
+}
+.main .top .content .search .bottom{
+    margin-top: 8px;
+}
+.main .docs {
+    background: #f5f5f5;
+    height: 600px;
+}
+.main .docs .kart{
+    height: 150px;
+    margin: 20px 10px;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 0.5px 0px 15px 0px silver;
+}
+.main .docs h1{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main .docs .kart:hover{
+    box-shadow: 0.5px 0px 15px 0px rgba(242, 82, 34, 0.51);
+}
+.main .docs .kart i{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+.main .docs .kart p{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.main .docs .row a{
+    text-decoration: none;
+    color: black;
+    border: 3px solid #f25222;
+    padding: 10px 50px;
+    text-align: center;
+    left: 42%;
+    bottom: -35px;
+    position: relative;
+    border-radius: 10px;
+    font-weight: 600;    
+}
+.main .docs .row a:hover{
+    background: #f25222;
+    border:none;
+    color: white;
+    font-weight: 600;
+}
+.main .bottom p{
+    text-align: center;
+    margin:20px 20px 40px 20px; 
+}
+.main .bottom img {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.main .footer img{
+    padding: 50px 0;
+}
+.main .footer .img2{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.footer .col4 p,span{
+    display: inline;
+    position: relative;
+    padding: 0px 20px;
+    top:50px;
+
+}
+.footer .col4 i {
+    color: #fbc222;
+}
+
+@media screen and (max-width: 1100px) {
+    .main .docs .col3 {
+        width: 50%;
+    }
+    .main .bottom .col4 {
+        width:100%;
+    }
+    .main .top .col7{
+        width: 100%
+    }
+    .main .top .col4{
+        width: 100%
+    }
+}
+@media screen and (max-width: 700px) {
+    .main .docs .col3 {
+        width: 100%;
+    }
+    .main .bottom .col4 {
+        width:100%;
+    }
+    .main .top .col7{
+        width: 100%
+    }
+    .main .top .col4{
+        width: 100%
+    }
+}
