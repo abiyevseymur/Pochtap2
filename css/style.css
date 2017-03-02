@@ -27,27 +27,12 @@
     background: darkorange;
     color: black;
 }
-.main .header .text .doc h1{
-    margin: 0;
-    margin-left: 40px;
-    display: inline-block;
-    text-transform: uppercase;
-    color: white;
-    position: relative;
-    bottom: 12px;
-    left: 14px;
-
-}
-.main .header .text .doc span{
-    text-transform: uppercase;
-    color: white;
-}
 .main .header .text .lost a{
     text-decoration: none;
     color:black;
     border: 1px solid orange;
     background: #fbc222;;
-    padding: 10px;
+    padding: 15px 10px;
     border-radius: 5%;
     margin-left: 22px;
 }
@@ -91,7 +76,7 @@
     margin: 0 20px;
 }
 .space {
-    height: 100px;
+    height: 50px;
 }
 .main .top .content .search h3 {
     text-align: center;
@@ -164,11 +149,13 @@ margin-left: 20px;
     border: 3px solid #f25222;
     padding: 10px 50px;
     text-align: center;
+    border-radius: 10px;
+    font-weight: 600;    
+}
+.main .docs .row .cox{
     left: 42%;
     bottom: -35px;
     position: relative;
-    border-radius: 10px;
-    font-weight: 600;    
 }
 .main .docs .row a:hover{
     background: #f25222;
@@ -193,40 +180,85 @@ margin-left: 20px;
 }
 .footer .col4 p,span{
     display: inline;
-    position: relative;
     padding: 0px 20px;
-    top:50px;
-
+}
+.footer .col4 .email {
+    position: relative;
+    top: 50px;
+    left: 40%;
 }
 .footer .col4 i {
     color: #fbc222;
 }
 
-@media screen and (max-width: 1100px) {
-    .main .docs .col3 {
+@media screen and (max-width: 1024px) {
+    .top, .header {
+        width: 1170px;
+    }
+    .docs .col3m{
+        width: 33.3%
+    }
+    .main .docs{
+         background: white; 
+    }
+    .main .docs .row .cox {
+    left: 22%;
+    top: 175px;
+    position: relative;
+}
+.main .docs .row a {
+padding: 40px 90px;
+}
+ .main .bottom .icon .col4m {
         width: 50%;
     }
-    .main .bottom .col4 {
-        width:100%;
-    }
-    .main .top .col7{
-        width: 100%
-    }
-    .main .top .col4{
-        width: 100%
-    }
 }
-@media screen and (max-width: 700px) {
-    .main .docs .col3 {
+@media screen and (max-width: 768px) {
+     .docs .col3m{
+        width: 50%
+    }
+    .main .docs {
+          background: white; }
+    .main .bottom .icon .col4m {
         width: 100%;
     }
-    .main .bottom .col4 {
-        width:100%;
+    .main .docs .row .cox {
+    left: 38%;
+    top: 71px;
+    position: relative;
+}
+.main .bottom .icon .col4m {
+margin-top: 80px;}
+.footer .col4m{
+    width: 50%;
+}
+.main .top .content .text {
+    width: 100%;
+}
+.main .top .content .col3m{
+    width: 100%;
+} 
+}
+@media screen and (max-width: 468px) {
+   .main .bottom .icon .col4m {
+       margin-top: 80px;
+        width: 100%;
     }
-    .main .top .col7{
+     .docs .col3m{
         width: 100%
     }
-    .main .top .col4{
-        width: 100%
-    }
+    .main .docs .row .cox {
+    left: 38%;
+    top: 71px;
+    position: relative;
+}
+.main .top .content .text {
+    width: 100%;
+}
+.main .top .content .col3m{
+    width: 100%;
+} 
+.footer .col4m{
+    width: 50%;
+}
 }
